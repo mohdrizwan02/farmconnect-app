@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import Link from "next/link";
 import React, { useState } from "react";
-import ChatbotSection from "@/components/Chatbotsection";
-import Herobanner from "@/components/Herobanner";
+import ChatbotSection from "@/components/farmerChatbotsection";
+
 import Carousel from "@/components/Homecarousel";
 
 import Newssection from "@/components/farmerNewssection";

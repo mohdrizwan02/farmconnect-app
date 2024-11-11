@@ -57,6 +57,7 @@ export const config = {
     "/farmer/about-us",
     "/farmer/contact-us",
     "/farmer/marketplace/selling",
+    "/farmer/chat-bot",
     "/trader",
     "/trader/news",
     "/trader/marketplace",
@@ -64,5 +65,6 @@ export const config = {
     "/trader/about-us",
     "/trader/contact-us",
     "/trader/marketplace/buying",
+    "/trader/chat-bot",
   ],
 };

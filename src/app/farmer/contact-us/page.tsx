@@ -33,7 +33,7 @@ const FarmerContact: React.FC = () => {
 
   return (
     <>
-      <Header/>
+     
       <section className="bg-white m-auto flex flex-col  text-black">
         <div className="container  mx-auto px-6 py-12 ">
           <div className="text-center">

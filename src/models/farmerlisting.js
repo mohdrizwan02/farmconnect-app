@@ -13,7 +13,7 @@ const farmerlistingschema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  
+
   productdeadline: {
     type: Date,
     required: true,

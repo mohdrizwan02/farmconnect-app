@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import Link from "next/link";
 import React, { useState } from "react";
-import ChatbotSection from "@/components/Chatbotsection";
+import ChatbotSection from "@/components/traderChatbotsection";
 
 import Carousel from "@/components/Homecarousel";
 

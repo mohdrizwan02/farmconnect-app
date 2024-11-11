@@ -105,7 +105,7 @@ export default function Navbar() {
             className={`${
               searchbar ? "hidden" : ""
             } flex title-font font-medium items-center text-gray-900`}
-            href="./"
+            href="../../../../farmer"
           >
             <Image
               className="w-auto h-10"
@@ -139,12 +139,12 @@ export default function Navbar() {
         </form>
       </div>
       <ul className="hidden items-center gap-5 lg:flex">
-        <a href="../../farmer">
+        <a href="../../../farmer">
           <li className="px-2 py-1 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-green-500 hover:text-black">
             Home
           </li>
         </a>
-        <a href="../../farmer/about-us">
+        <a href="../../../farmer/about-us">
           <li className="px-2 py-1 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-green-500 hover:text-black">
             About
           </li>
@@ -162,7 +162,7 @@ export default function Navbar() {
           </div>
           {dropdownOpen && (
             <ul className="absolute flex mt-1 z-50 flex-row gap-5 bg-white p-4 rounded-lg shadow-lg  right-0">
-              <a href="../../farmer/marketplace">
+              <a href="../../../../farmer/marketplace">
                 <li className="flex flex-col items-center px-4 py-2  rounded-md cursor-pointer">
                   <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                     <FaShop className="h-6 w-6" />
@@ -170,7 +170,7 @@ export default function Navbar() {
                   <span className="text-black mt-1">Marketplace</span>
                 </li>
               </a>
-              <a href="../../farmer/news">
+              <a href="../../../farmer/news">
                 <li className="flex flex-col items-center px-4 py-2  rounded-md cursor-pointer">
                   <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                     <IoNewspaperSharp className="h-6 w-6" />
@@ -178,7 +178,7 @@ export default function Navbar() {
                   <span className="text-black mt-1">News</span>
                 </li>
               </a>
-              <a href="#">
+              <a href="../../../farmer/chat-bot">
                 <li className="flex flex-col items-center px-4 py-2  rounded-md cursor-pointer">
                   <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                     <RiRobot3Fill className="h-6 w-6" />
@@ -189,7 +189,7 @@ export default function Navbar() {
             </ul>
           )}
         </div>
-        <a href="../../farmer/contact-us">
+        <a href="../../../../farmer/contact-us">
           <li className="px-2 py-1 rounded-md hover:cursor-pointer  hover:bg-gray-100 active:bg-green-500 hover:text-black">
             Contact
           </li>
@@ -246,12 +246,12 @@ export default function Navbar() {
             />
             <span className="ml-3 text-xl text-white">FARM CONNECT</span>
           </a>
-          <a href="../../farmer" onClick={handleLinkClick}>
+          <a href="../../../../farmer" onClick={handleLinkClick}>
             <li className="p-4 border-b hover:cursor-pointer border-gray-600">
               Home
             </li>
           </a>
-          <a href="../../farmer/about-us" onClick={handleLinkClick}>
+          <a href="../../../../farmer/about-us" onClick={handleLinkClick}>
             <li className="p-4 border-b hover:cursor-pointer border-gray-600">
               About
             </li>
@@ -265,7 +265,7 @@ export default function Navbar() {
             </li>
             {dropdownOpen && (
               <ul className="bg-[#000300] border border-gray-600 rounded-lg shadow-lg mt-2 mx-3">
-                <a href="../../farmer/marketplace">
+                <a href="../../../../farmer/marketplace">
                   <li className="flex flex-row items-center px-4 py-2 hover:bg-gray-700 cursor-pointer">
                     <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                       <FaShop className="h-6 w-6" />
@@ -273,7 +273,7 @@ export default function Navbar() {
                     <span className="ml-2 text-white">Marketplace</span>
                   </li>
                 </a>
-                <a href="../../farmer/news">
+                <a href="../../../../farmer/news">
                   <li className="flex flex-row items-center px-4 py-2 hover:bg-gray-700 cursor-pointer">
                     <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                       <IoNewspaperSharp className="h-6 w-6" />
@@ -281,7 +281,7 @@ export default function Navbar() {
                     <span className="ml-2 text-white">News</span>
                   </li>
                 </a>
-                <a href="../../farmer/">
+                <a href="../../../../farmer/">
                   <li className="flex flex-row items-center px-4 py-2 hover:bg-gray-700 cursor-pointer">
                     <span className="inline-block rounded-lg bg-white hover:bg-green-600 hover:text-white text-black p-3">
                       <RiRobot3Fill className="h-6 w-6" />
@@ -292,7 +292,7 @@ export default function Navbar() {
               </ul>
             )}
           </div>
-          <a href="../../farmer/contact-us" onClick={handleLinkClick}>
+          <a href="../../../../farmer/contact-us" onClick={handleLinkClick}>
             <li className="p-4 border-b hover:cursor-pointer border-gray-600">
               Contact
             </li>
